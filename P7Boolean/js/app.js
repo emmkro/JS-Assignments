@@ -1,6 +1,6 @@
 const birthyear= 2003;
 const currentYear= 2024;
-const favoriteNumber= 21;
+const favoriteNumber= 27;
 let ageOfPerson= currentYear - birthyear;
 console.log (ageOfPerson);
 
@@ -23,14 +23,18 @@ console.log(favoriteNumber);
 if (favoriteNumber > ageOfPerson) {
   console.log("favorite number is greater");
 }
-else if (favoriteNumber == ageOfPerson) {
+else if (favoriteNumber === ageOfPerson) {
   console.log("they are the same")
 }
    else {
      console.log("age is greater")
 }
-
-
+if(favoriteNumber % 2 === 0)  {
+  console.log("favorite number is even");
+}
+if (favoriteNumber % 3 === 0)  {
+  console.log("favorite number is odd");
+}
 
 console.log (isChild);
 console.log(isTeenager);
