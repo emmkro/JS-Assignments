@@ -35,14 +35,9 @@ if(favoriteNumber % 2 === 0)  {
 if (favoriteNumber % 3 === 0)  {
   console.log("favorite number is odd");
 }
-
 console.log (isChild);
 console.log(isTeenager);
 console.log(isAdult);
-
-
-
-
 
 let playerTouchGround = false;
 let playerHasJetPack= true;
@@ -61,5 +56,12 @@ else{
   console.log("player CANNOT jup!");
 }
 
+function makeLasanga() {
+  console.log("fry meat");
+  console.log("cut onions");
+  console.log("fry meat");
+  console.log("add  tomato sauce");
+}
 
+makeLasanga();
 
