@@ -20,10 +20,12 @@ console.log("Player can jump");
 }
 
 else if (playerHasJetPack) {
-  console.log("player is not touching the ground.");
-  console.log("you cannot jump right now") }
+  console.log("Player can jet away!")
+   }
 
 else{
-  console.log("Playser is NOT on the ground!");
+  console.log("Player is NOT on the ground!");
   console.log("player CANNOT jup!");
 }
+
+
