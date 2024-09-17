@@ -41,30 +41,30 @@ function randomNumber() {
 console.log(randomNumber());
 
 function convertNumbersToLetters(number){
-  if(number === 0){
+   if(number === 0){
     return "A";
   }
-  if(number === 1){
+  else if(number === 1){
     return "B";
   }
-if (number === 2){
+else if (number === 2){
   return "C";
 }
 }
-console.log(convertNumbersToLetters(0));
+console.log (convertNumbersToLetters(0));
 
 //
 function evulateResult(firstNumber, secondNumber){
-  let string;
+
   if (firstNumber === secondNumber){
-     string= "Both numbers are equal!";
+    return "Both numbers are equal!";
   }
- if (firstNumber > secondNumber){
-    string= "First number i greater!";
+ else if (firstNumber > secondNumber){
+    return "First number i greater!";
  }
- if (firstNumber < secondNumber){
-   string= "First number is smaller!";
+ else if (firstNumber < secondNumber){
+   return"First number is smaller!";
  }
- return string;
+
 }
 console.log(evulateResult (5 , 2));
